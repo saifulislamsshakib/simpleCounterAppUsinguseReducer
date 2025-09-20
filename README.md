@@ -1,12 +1,23 @@
-# React + Vite
+# React Counter App (useReducer Hook)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and reusable **React Counter Application** built with the `useReducer` hook for cleaner and more scalable state management.  
+This project demonstrates how to manage complex state updates using reducer logic instead of `useState`.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Increment & decrement counter values  
+- Multiple step increments/decrements: **+1, +5, +10 / -1, -5, -10**  
+- Prevents decrement below a threshold (default: 20)  
+- Organized with a separate reducer file for better reusability  
+- Beginner-friendly code structure for learning React hooks  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **React.js**
+- **JavaScript (ES6+)**
+
+---
+
+
